@@ -1,7 +1,7 @@
 # Description
 This script opens the IMDb page that corresponds to the currently playing media file, whether a film or a specific TV episode.
 
-It does this by extracting/guessing the relevant metadata from the filename, finding it on IMDb, and then opening the page in a new tab on your default browser.
+It does this by extracting/guessing the relevant metadata from the file name (using [guessit](https://github.com/guessit-io/guessit)), finding it on IMDb, and then opening the page in a new tab on your default browser.
 
 Scene/release-type file names are supported.
 
